@@ -1,0 +1,38 @@
+@media (min-width: 320px) and (max-width: 374px) {
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  header {
+    display: flex;
+    flex-direction: row;
+    padding: 0px;
+  }
+  nav {
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+  }
+  .hamburger-menu {
+    width: 3rem;
+    height: 3rem;
+    display: flex !important;
+    flex-direction: column;
+    border-radius: 9px;
+    /* background-color: white; */
+    /* display: flex; */
+    visibility: visible !important;
+    align-content: center;
+    justify-items: center;
+    border: 1px solid #fff;
+  }
+  .hamburger-menu span {
+    display: block;
+    padding: 1px;
+    margin-top: 5px;
+    background-color: #fff;
+    width: 2.5rem;
+    height: 3px;
+  }
+}
