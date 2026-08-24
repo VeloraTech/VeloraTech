@@ -5,8 +5,8 @@
 > **I build products, explore systems, and learn by taking things apart.**
 
 [![GitHub](https://img.shields.io/badge/GitHub-VeloraTech-181717?style=flat-square\&logo=github)](https://github.com/VeloraTech)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Profile-0A66C2?style=flat-square\&logo=linkedin)](YOUR_LINKEDIN_URL)
-[![Email](https://img.shields.io/badge/Email-Contact-EA4335?style=flat-square\&logo=gmail)](YOUR_EMAIL_LINK)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Profile-0A66C2?style=flat-square\&logo=linkedin)](https://www.linkedin.com/in/daniel-alpheaus-804600366)
+[![Email](https://img.shields.io/badge/Email-Contact-EA4335?style=flat-square\&logo=gmail)](alpheausdalighton@gmail.com)
 
 ---
 
