@@ -6,7 +6,7 @@
 
 [![GitHub](https://img.shields.io/badge/GitHub-VeloraTech-181717?style=flat-square\&logo=github)](https://github.com/VeloraTech)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Profile-0A66C2?style=flat-square\&logo=linkedin)](https://www.linkedin.com/in/daniel-alpheaus-804600366)
-[![Email](https://img.shields.io/badge/Email-Contact-EA4335?style=flat-square\&logo=gmail)](alpheausdalighton@gmail.com)
+[![Email](https://img.shields.io/badge/Email-Contact-EA4335?style=flat-square\&logo=gmail)](mailto:alpheausdalighton@gmail.com)
 
 ---
 
@@ -289,7 +289,7 @@ I'm gradually putting the rest of my online presence together.
 | LinkedIn    | [Alpheaus Daniel](https://www.linkedin.com/in/daniel-alpheaus-804600366)           |
 | X / Twitter | [Alpheaus Daniel](https://x.com/RyanDan934)                         |
 | Portfolio   | [Coming soon](YOUR_PORTFOLIO_URL)           |
-| Email       | [Contact me](alpheausdalighton@gmail.com)             |
+| Email       | [Contact me](mailto:alpheausdalighton@gmail.com)             |
 
 ---
 
