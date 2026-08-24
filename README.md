@@ -1,4 +1,4 @@
-# 👋 Hey, I'm VeloraTech
+# 👋 Hey, I'm CoachLogic
 
 ### Software Developer · Computer Engineering Student · Builder
 
