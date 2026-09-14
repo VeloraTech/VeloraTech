@@ -2,13 +2,14 @@
   <source media="(prefers-color-scheme: dark)" srcset="dark_mode.svg" />
   <source media="(prefers-color-scheme: light)" srcset="light_mode.svg" />
   <img alt="CoachLogic's GitHub profile" src="dark_mode.svg" />
-</picture>Hey, I'm CoachLogic
+</picture>
+# Hey, I'm CoachLogic
 
 Software Developer · Computer Engineering Student · Builder
 
 «I build products. I explore systems. I learn by taking things apart.»
 
-""GitHub" (https://img.shields.io/badge/GitHub-VeloraTech-181717?style=flat-square&logo=github)" (https://github.com/VeloraTech)
+"GitHub" (https://img.shields.io/badge/GitHub-VeloraTech-181717?style=flat-square&logo=github)" (https://github.com/VeloraTech)
 ""LinkedIn" (https://img.shields.io/badge/LinkedIn-Profile-0A66C2?style=flat-square&logo=linkedin)" (https://www.linkedin.com/in/alpheaus-daniel-804600366)
 ""Email" (https://img.shields.io/badge/Email-Contact-EA4335?style=flat-square&logo=gmail)" (mailto:alpheausdalighton@gmail.com)
 
