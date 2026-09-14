@@ -4,7 +4,7 @@
   <img alt="VeloraTech's GitHub profile" src="dark_mode.svg" />
 </picture>
 
-# 👋 Hey, I'm CoachLogic
+# Hey, I'm CoachLogic
 
 ### Software Developer · Computer Engineering Student · Builder
 
@@ -57,7 +57,7 @@ Currently building, learning, and experimenting with:
 
 # `$ selected_builds`
 
-## 🩺 CuraMed
+## CuraMed
 
 A healthcare-focused platform I'm building around clinical workflows, analysis and intelligent assistance.
 
@@ -69,7 +69,7 @@ A healthcare-focused platform I'm building around clinical workflows, analysis a
 
 ---
 
-## 🏠 Umudike Homes
+## Umudike Homes
 
 A housing and accommodation platform designed to make discovering and managing accommodation easier.
 
@@ -81,7 +81,7 @@ A housing and accommodation platform designed to make discovering and managing a
 
 ---
 
-## 🛍️ MyVendor
+## MyVendor
 
 A hyper-local marketplace concept connecting people with nearby vendors, products and service providers.
 
@@ -103,13 +103,13 @@ I also enjoy building websites and digital experiences where **design, interacti
 
 This section will grow as I build and publish more client and personal web projects.
 
-### 🎥 Videographer Website
+### Videographer Website
 
 A visual-focused website concept for a videographer, built around presenting creative work through a polished digital experience.
 
 > **Status:** Planned
 
-### 👤 Portfolio Experiences
+### Portfolio Experiences
 
 I'm also interested in building distinctive portfolio websites rather than relying on generic templates.
 
@@ -123,7 +123,7 @@ Not every project starts as a product.
 
 Some start as a question.
 
-### 🧹 Developer Tooling
+### Developer Tooling
 
 What started as a simple idea to automatically remove debugging traces such as `console.log()` statements from production code became a much bigger question:
 
@@ -135,7 +135,7 @@ I'm exploring the idea from a small JavaScript utility toward broader developer 
 
 ---
 
-### 🎨 Block AI
+### Block AI
 
 An early exploration around turning visual interface designs into usable code.
 
@@ -159,7 +159,7 @@ The long-term question:
 
 ---
 
-### ⚙️ Nomos
+### Nomos
 
 An early SDK/platform concept exploring reusable backend infrastructure that developers could plug into their applications instead of repeatedly building the same foundations from scratch.
 
