@@ -3,98 +3,126 @@
   <source media="(prefers-color-scheme: light)" srcset="light_mode.svg" />
   <img alt="CoachLogic's GitHub profile" src="dark_mode.svg" />
 </picture>
+
 # Hey, I'm CoachLogic
 
-Software Developer · Computer Engineering Student · Builder
+**Software Developer · Computer Engineering Student · Builder**
 
-«I build products. I explore systems. I learn by taking things apart.»
+> I build products. I explore systems. I learn by taking things apart.
 
-"GitHub" (https://img.shields.io/badge/GitHub-VeloraTech-181717?style=flat-square&logo=github)" (https://github.com/VeloraTech)
-""LinkedIn" (https://img.shields.io/badge/LinkedIn-Profile-0A66C2?style=flat-square&logo=linkedin)" (https://www.linkedin.com/in/alpheaus-daniel-804600366)
-""Email" (https://img.shields.io/badge/Email-Contact-EA4335?style=flat-square&logo=gmail)" (mailto:alpheausdalighton@gmail.com)
+[![GitHub](https://img.shields.io/badge/GitHub-VeloraTech-181717?style=flat-square\&logo=github)](https://github.com/VeloraTech)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Profile-0A66C2?style=flat-square\&logo=linkedin)](https://www.linkedin.com/in/alpheaus-daniel-804600366)
+[![Email](https://img.shields.io/badge/Email-Contact-EA4335?style=flat-square\&logo=gmail)](mailto:alpheausdalighton@gmail.com)
 
 ---
 
-"$ whoami"
+## `$ whoami`
 
-I'm a software developer and Computer Engineering student interested in building useful products and understanding the systems behind them.
+I'm a software developer and Computer Engineering student interested in building **useful products** and understanding the systems behind them.
 
-I started with the web and have been gradually moving deeper into backend development, databases, APIs, infrastructure, and systems.
+I started with the web and have been gradually moving deeper into **backend development, databases, APIs, infrastructure, and developer tooling**.
 
-A question that keeps showing up in my work is:
+One question keeps showing up in my work:
 
-«"How does this actually work underneath?"»
+> **How does this actually work underneath?**
 
 When I don't know, I build.
 
 ---
 
-"$ currently_building"
+## `$ currently_building`
 
-CuraMed
+### CuraMed
 
-Healthcare platform focused on clinical workflows, analysis, and intelligent assistance.
+A healthcare platform focused on clinical workflows, analysis, and intelligent assistance.
 
-Stack: Python · FastAPI · PostgreSQL · React
+**Stack:** `Python` · `FastAPI` · `PostgreSQL` · `React`
 
-Umudike Homes
+### Umudike Homes
 
-Housing and accommodation platform focused on making local accommodation easier to discover and manage.
+A housing and accommodation platform focused on making local accommodation easier to discover and manage.
 
-Stack: React · Node.js · Express · PostgreSQL
+**Stack:** `React` · `Node.js` · `Express` · `PostgreSQL`
 
-MyVendor
+### MyVendor
 
 A hyper-local marketplace connecting people with nearby products, vendors, and service providers.
 
-Developer Tooling
+**Stack:** `React` · `Node.js` · `Express` · `PostgreSQL`
 
-Exploring tools that automate repetitive developer workflows, including code cleanup and media-to-text workflows.
+### Developer Tooling
+
+Building and exploring open-source tools that solve practical problems in developer workflows.
+
+Current work includes **Cleaner** and **AgentTrace**.
 
 ---
 
-"$ philosophy"
+## `$ philosophy`
 
-build
+```text
+BUILD
   ↓
-break
+BREAK
   ↓
-learn
+LEARN
   ↓
-rebuild
+REBUILD
+```
 
 I don't believe every project needs to become a startup.
 
 Sometimes I build something simply because I don't understand how it works yet.
 
-«If I don't understand it, I'll probably try to build it.»
+> **If I don't understand it, I'll probably try to build it.**
 
 ---
 
-"$ stack"
+## `$ stack`
 
-Working with
+### Working with
 
-HTML · CSS · JavaScript · React · Node.js · Express · PostgreSQL · Git
+`HTML` · `CSS` · `JavaScript` · `TypeScript` · `React` · `Node.js` · `Express` · `PostgreSQL` · `Git` · `GitHub`
 
-Currently learning
+### Currently learning
 
-Python · FastAPI · React Native
+`Python` · `FastAPI` · `Docker` · `React Native`
 
-Exploring
+### Exploring
 
-Docker · Supabase · developer tooling · systems
+`Developer Tooling` · `Systems` · `Infrastructure` · `Open Source`
 
 ---
 
-"$ connect"
+## `$ what_i_build`
 
-Platform| Link
-GitHub| "VeloraTech" (https://github.com/VeloraTech)
-LinkedIn| "Alpheaus Daniel" (https://www.linkedin.com/in/alpheaus-daniel-804600366)
-X| "Alpheaus Daniel" (https://x.com/RyanDan934)
-Portfolio| Coming soon
-Email| "Contact me" (mailto:alpheausdalighton@gmail.com)
+I like projects that sit somewhere between **software, systems, and experimentation**.
+
+Some of the things I'm interested in:
+
+* Developer tools
+* Web applications
+* Backend systems
+* APIs and databases
+* Local-first software
+* Developer experience
+* Open-source infrastructure
+* Technology exploration
+
+The goal isn't to build everything.
+
+It's to understand more of what I'm building.
+
+---
+
+## `$ connect`
+
+| Platform | Link                                                                     |
+| -------- | ------------------------------------------------------------------------ |
+| GitHub   | [VeloraTech](https://github.com/VeloraTech)                              |
+| LinkedIn | [Alpheaus Daniel](https://www.linkedin.com/in/alpheaus-daniel-804600366) |
+| X        | [Alpheaus Daniel](https://x.com/RyanDan934)                              |
+| Email    | [Contact me](mailto:alpheausdalighton@gmail.com)                         |
 
 ---
 
@@ -104,12 +132,14 @@ Email| "Contact me" (mailto:alpheausdalighton@gmail.com)
 ┌──────────────────────────────────────────────┐
 │                                              │
 │  IDENTITY     : BUILDER                      │
-│  FOCUS        : SOFTWARE + SYSTEMS          │
+│  FOCUS        : SOFTWARE + SYSTEMS           │
 │  STATUS       : BUILDING                     │
 │  DIRECTION    : GO DEEPER                    │
 │                                              │
 └──────────────────────────────────────────────┘
 ```
+
+---
 
 ### Thanks for stopping by.
 
@@ -117,5 +147,4 @@ If something here catches your attention, explore the repositories.
 
 **The projects are where the real story is.**
 
-
-«Still learning. Still building. Still curious.»
+> Still learning. Still building. Still curious.
