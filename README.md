@@ -11,7 +11,7 @@
 > I build products. I explore systems. I learn by taking things apart.
 
 [![GitHub](https://img.shields.io/badge/GitHub-VeloraTech-181717?style=flat-square\&logo=github)](https://github.com/VeloraTech)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Profile-0A66C2?style=flat-square\&logo=linkedin)](https://www.linkedin.com/in/alpheaus-daniel-804600366)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Profile-0A66C2?style=flat-square\&logo=linkedin)](https://www.linkedin.com/in/coach-logic-804600366/)
 [![Email](https://img.shields.io/badge/Email-Contact-EA4335?style=flat-square\&logo=gmail)](mailto:alpheausdalighton@gmail.com)
 
 ---
@@ -117,12 +117,12 @@ It's to understand more of what I'm building.
 
 ## `$ connect`
 
-| Platform | Link                                                                     |
-| -------- | ------------------------------------------------------------------------ |
-| GitHub   | [VeloraTech](https://github.com/VeloraTech)                              |
-| LinkedIn | [Alpheaus Daniel](https://www.linkedin.com/in/alpheaus-daniel-804600366) |
-| X        | [Alpheaus Daniel](https://x.com/RyanDan934)                              |
-| Email    | [Contact me](mailto:alpheausdalighton@gmail.com)                         |
+| Platform | Link                                                             |
+| -------- | ---------------------------------------------------------------- |
+| GitHub   | [VeloraTech](https://github.com/VeloraTech)                      |
+| LinkedIn | [CoachLogic](https://www.linkedin.com/in/coach-logic-804600366/) |
+| X        | [Alpheaus Daniel](https://x.com/RyanDan934)                      |
+| Email    | [Contact me](mailto:alpheausdalighton@gmail.com)                 |
 
 ---
 
