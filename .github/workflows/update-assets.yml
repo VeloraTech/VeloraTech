@@ -3,7 +3,7 @@ name: Update Profile SVGs Nightly
 on:
   schedule:
     # Runs daily at 06:17 AM UTC (Off-the-hour schedules run more reliably on GitHub)
-    - cron: '17 0 * * *'
+    - cron: '0 0 * * *'
   workflow_dispatch: # Lets you click "Run workflow" to force an update anytime
 
 permissions:
