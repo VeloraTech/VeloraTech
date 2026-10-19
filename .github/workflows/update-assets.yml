@@ -3,7 +3,7 @@ name: Update Profile SVGs Nightly
 on:
   schedule:
     # Runs every night at 12:00 AM UTC
-    - cron: '0 0 * * *'
+    - cron: '10 0 * * *'
   workflow_dispatch: # Allows you to manually trigger it from the Actions tab anytime
 
 permissions:
@@ -20,8 +20,8 @@ jobs:
       - name: Download Latest SVGs
         run: |
           # CHANGE THESE URLS to the actual site URLs where your SVGs are generated
-          curl -sL "https://example.com" -o dark_mode.svg
-          curl -sL "https://example.com" -o light_mode.svg
+          curl -sL "https://gh.crafter.run/?u=VeloraTech" -o dark_mode.svg
+          curl -sL "https://gh.crafter.run/?u=VeloraTech" -o light_mode.svg
 
       - name: Commit and Push Updates
         run: |
