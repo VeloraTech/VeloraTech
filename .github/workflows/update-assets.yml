@@ -1,0 +1,41 @@
+name: Update Profile SVGs Nightly
+
+on:
+  schedule:
+    # Runs every night at 12:00 AM UTC
+    - cron: '0 0 * * *'
+  workflow_dispatch: # Allows you to manually trigger it from the Actions tab anytime
+
+permissions:
+  contents: write # Grants the workflow permission to push changes back to your repo
+
+jobs:
+  update-svgs:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Download Latest SVGs
+        run: |
+          # CHANGE THESE URLS to the actual site URLs where your SVGs are generated
+          curl -sL "https://example.com" -o dark_mode.svg
+          curl -sL "https://example.com" -o light_mode.svg
+
+      - name: Commit and Push Updates
+        run: |
+          # Configure a generic GitHub Actions bot identity for the commit
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          
+          # Stage the updated assets
+          git add dark_mode.svg light_mode.svg
+          
+          # Check if there are actual changes before committing to prevent empty commit errors
+          if git diff-index --quiet HEAD --; then
+            echo "No changes detected in the SVGs tonight."
+          else
+            git commit -m "chore: nightly automated profile assets update"
+            git push
+          fi
