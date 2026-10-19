@@ -2,40 +2,39 @@ name: Update Profile SVGs Nightly
 
 on:
   schedule:
-    # Runs every night at 12:00 AM UTC
-    - cron: '10 0 * * *'
-  workflow_dispatch: # Allows you to manually trigger it from the Actions tab anytime
+    # Runs daily at 06:17 AM UTC (Off-the-hour schedules run more reliably on GitHub)
+    - cron: '17 0 * * *'
+  workflow_dispatch: # Lets you click "Run workflow" to force an update anytime
 
 permissions:
-  contents: write # Grants the workflow permission to push changes back to your repo
+  contents: write # Needed so the token can push files back to your profile repo
 
 jobs:
-  update-svgs:
+  refresh:
     runs-on: ubuntu-latest
-
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v4
 
-      - name: Download Latest SVGs
+      - name: Download Latest ASCII SVGs
         run: |
-          # CHANGE THESE URLS to the actual site URLs where your SVGs are generated
-          curl -sL "https://gh.crafter.run/?u=VeloraTech" -o dark_mode.svg
-          curl -sL "https://gh.crafter.run/?u=VeloraTech" -o light_mode.svg
+          # Fetch the clean vector code directly from your gh.crafter.run generator string
+          curl -fsSL --retry 3 --retry-delay 5 "https://gh.crafter.run/?u=VeloraTech" -o dark_mode.svg
+          curl -fsSL --retry 3 --retry-delay 5 "https://gh.crafter.run/?u=VeloraTech" -o light_mode.svg
 
       - name: Commit and Push Updates
         run: |
-          # Configure a generic GitHub Actions bot identity for the commit
+          # Setup standard GitHub runner bot identity
           git config --global user.name "github-actions[bot]"
           git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
           
-          # Stage the updated assets
+          # Force overwrite the local repo workspace assets
           git add dark_mode.svg light_mode.svg
           
-          # Check if there are actual changes before committing to prevent empty commit errors
+          # Only create a commit if your GitHub statistics (stars/repos) actually changed
           if git diff-index --quiet HEAD --; then
-            echo "No changes detected in the SVGs tonight."
+            echo "No stats modifications found today. Skipping commit."
           else
-            git commit -m "chore: nightly automated profile assets update"
+            git commit -m "chore: nightly automated profile ASCII card update"
             git push
           fi
